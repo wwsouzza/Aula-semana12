@@ -1,7 +1,7 @@
 # Aula 1 - Exercício 3: quanto da variação do consumo vem do tipo de dia
 import pandas as pd
 
-consumo_campus = pd.read_csv("arquivos/consumo_campus.csv")
+consumo_campus = pd.read_csv("consumo_campus.csv")
 consumo = consumo_campus["consumo_kwh"]
 print(consumo_campus.groupby("dia_semana")["consumo_kwh"].agg(["mean", "std", "count"]).round(1))
 

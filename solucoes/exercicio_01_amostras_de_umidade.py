@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 
-consumo_campus = pd.read_csv("arquivos/consumo_campus.csv")
+consumo_campus = pd.read_csv("consumo_campus.csv")
 umidade_populacao = consumo_campus["umidade_pct"]
 print(f"média da população = {umidade_populacao.mean():.2f} % | desvio padrão = {umidade_populacao.std():.2f}")
 
