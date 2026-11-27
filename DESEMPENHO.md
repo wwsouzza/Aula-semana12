@@ -1,0 +1,1 @@
+O modelos, tanto de regressão linear quanto o de árvore de decisão apresentaram um desempenho melhor que o Baseline. Acredito que a utilização de um dos modelos irá melhorar a decisão de valor da demanda a ser contratada de energia. 
